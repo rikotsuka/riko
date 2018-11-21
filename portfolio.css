@@ -1,4 +1,5 @@
 html,body{margin:0px;}
+
 .move{
     opacity: 0;
     transition: 1s ease;

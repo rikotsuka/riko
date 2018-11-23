@@ -85,8 +85,9 @@ section .text_profile {
     position: relative;
     text-align: center;
     }
-    section#skill {
+section#skill {
     text-align: center;
+    margin: 100px 0px;
 }
 section .riko_picture::before {
     background-image: url(img/大塚パン.png);
@@ -135,7 +136,9 @@ section .picture {
   display: inline-block;
   position: relative;
 }
-
+section#making {
+    margin: 70px 0px;
+}
 section .explain_text {
     width: 800px;
     margin: 0 auto;

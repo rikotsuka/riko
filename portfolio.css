@@ -17,7 +17,7 @@ html,body{margin:0px;}
 }
 .try_text.move.inview {
     width: 500px;
-    margin: 0 auto;
+    margin: 10px auto 100px;
     color: #5F5F5F;
     line-height: 2;
 }

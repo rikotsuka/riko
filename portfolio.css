@@ -18,17 +18,17 @@ section .header{
   display: table;
 }
 
-section .header_title{
-  display: inline-table;
-  width: 100%;
-  text-align: right;
-  background: #FFF;
+section .header_title {
+    display: inline-table;
+    width: 100%;
+    text-align: right;
+    background: #FFF;
+    font-size: 12px;
 }
-
 section .header_title li{
-  display: inline-table;
-  padding: 20px 20px;
-  font-weight: bold;
+    display: inline-table;
+    padding: 20px 20px;
+    font-weight: bold;
 
 }
 
@@ -40,13 +40,13 @@ section .design {
   }
 
 section .header_title li a{
-  text-decoration: none;
-  color: #19B6E0;
+    text-decoration: none;   
+    color: #5F5F5F;
 }
 
 section .header img{
-  width: 500px;
-  height: 500px;
+    width: 500px;
+    height: 500px;
 }
 
 .copy {
@@ -54,32 +54,33 @@ text-align: center;
 
 }
 section .text {
-  width: 740px;
-  height: 510px;
-  vertical-align: center;
-    /* vertical-align: middle; */
-  display: inline-block;
-    /* position: relative; */
-  top: 30px;
-  left: 0px;
-  vertical-align: top;
-  position: relative;
-  border-radius: 208px 320px 340px 481px;
-    /* line-height: 8; */
-    /* transform: skewX(-10deg); */
-  opacity: 1.4;
-  z-index: 111;
-  background: #FFFC93;
+    width: 740px;
+    height: 510px;
+    vertical-align: center;
+        /* vertical-align: middle; */
+    display: inline-block;
+        /* position: relative; */
+    top: 30px;
+    left: 0px;
+    vertical-align: top;
+    position: relative;
+    border-radius: 208px 320px 340px 481px;
+    opacity: 1.4;
+    z-index: 111;
+    background: #FFFC93;
 }
 section .text_profile {
     width: 530px;
-    text-align: left;
+    text-align: center;
     margin: 40px auto;
 }
 .riko_picture {
     position: relative;
     text-align: center;
     }
+    section#skill {
+    text-align: center;
+}
 section .riko_picture::before {
     background-image: url(img/大塚パン.png);
     background-repeat: no-repeat;
@@ -95,26 +96,26 @@ section .title {
     font-size: 40px;
     font-weight: bold;
     /* margin-top: 100px; */
-    color: #19B6E0;
+    color: #5F5F5F;
     margin: 0px 0px 50px;
     text-align: center;
   }
 
 section .work_design1{
-  margin: 60px;
-  position: relative;
+    margin: 60px;
+    position: relative;
 }
 section .work_design1::before {
-  background-image: url(img/大塚写真.png);
-  background-repeat: no-repeat;
-  content: "";
-  position: absolute;
-    /* display: block; */
-  width: 300px;
-  height: 327px;
-    /* top: 2160px; */
-  left:-20px;
-  opacity: 0.7;
+    background-image: url(img/大塚写真.png);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+        /* display: block; */
+    width: 300px;
+    height: 327px;
+        /* top: 2160px; */
+    left:-20px;
+    opacity: 0.7;
 }
 section .work_design2{
   margin: 60px;
@@ -141,7 +142,7 @@ section .content {
   top: 130px;
   width: 490px;
   margin: 0 auto;
-  color: #19B6E0;
+  color: #5F5F5F;
   text-align: left;
 }
 
@@ -176,11 +177,11 @@ section.text_application {
     color: #737373;
 }
 section .application{
-  display: inline-block;
+    display: inline-block;
 }
 
 section .application2{
-  display: inline-block;
+    display: inline-block;
 }
 
 
@@ -345,7 +346,7 @@ section .motivation_text3 {
 }
 
 .motivation_text_content {
-    color: #19B6E0;
+    color:#5F5F5F;;
 }
 section .point_text {
 width: 600px;
@@ -387,8 +388,8 @@ section .thinking_ec_site {
     display: inline-block;
     padding: 0.25em 0.5em;
     text-decoration: none;
-    color: #FFF;
-    background: #19B6E0;
+    color: #5F5F5F;
+    background:#FFFAAF;
     border-radius: 4px;
     width: 300px;
     display: block;

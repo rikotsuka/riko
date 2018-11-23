@@ -12,7 +12,14 @@ html,body{margin:0px;}
     transition: 1s ease;
     transform:translateY(0);
     animation: all;
+  
     /* visibility:hidden; */
+}
+.try_text.move.inview {
+    width: 500px;
+    margin: 0 auto;
+    color: #5F5F5F;
+    line-height: 2;
 }
 section .header{
   display: table;

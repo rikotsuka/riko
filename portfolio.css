@@ -15,6 +15,9 @@ html,body{margin:0px;}
   
     /* visibility:hidden; */
 }
+.container{ 
+    display: block;
+}
 .work_design.move1{
     display: inline-block;
 }
@@ -32,6 +35,9 @@ html,body{margin:0px;}
     display: inline-block;
 }
 .work_design.move6{
+    display: inline-block;
+}
+.work_design.move7{
     display: inline-block;
 }
 .try_text.move.inview {

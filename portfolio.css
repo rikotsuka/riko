@@ -451,7 +451,7 @@ section.trouble {
 .picture text move inview{
     display: inline-block;
 }
-section .biography dt{
+/*section .biography dt{
     float: left;
     display: inline;
     zoom: 1;
@@ -481,7 +481,7 @@ section .biography{
     display: inline;
     zoom: 1;
     width:238px;
-}
+}*/
 .riko_picture move p{
     width: 20px;
     height: 20px;

@@ -15,6 +15,25 @@ html,body{margin:0px;}
   
     /* visibility:hidden; */
 }
+.work_design.move1{
+    display: inline-block;
+}
+.work_design.move2{
+    display: inline-block;
+}
+
+.work_design.move3{
+    display: inline-block;
+}
+.work_design.move4{
+    display: inline-block;
+}
+.work_design.move5{
+    display: inline-block;
+}
+.work_design.move6{
+    display: inline-block;
+}
 .try_text.move.inview {
     width: 500px;
     margin: 10px auto 100px;
@@ -24,6 +43,7 @@ html,body{margin:0px;}
 section .header{
   display: table;
 }
+
 
 section .header_title {
     display: inline-table;
@@ -55,26 +75,164 @@ section .header img{
     width: 500px;
     height: 500px;
 }
+text {
+    /* 色はお好みで */
+    stroke: orange;
+    /* 色はお好みで */
+    fill: orange;
+    /* 文字が大きい方がアニメーションが綺麗なので50pxを指定 */
+    font-size: 100px;
+    /* 100%だと最後まで表示されないので多めに設定する */
+    stroke-dasharray: 150% 150%;
+    /* 線が細いほうがアニメーションが綺麗なので0.5pxを指定 */
+    stroke-width: 0.5px;
+    -webkit-animation: stroke-anim 5s linear;
+    animation: stroke-anim 5s linear;
+    /*background-image: url("img/水玉写真.jpg");*/
+}
+@-webkit-keyframes stroke-anim {
+  0% {
+    /* 100%だと最後まで表示されないので多めに設定する */
+    stroke-dashoffset: 150%;
+    fill:transparent;
+  }
+  50% {
+    fill:transparent;
+  }
+  100% {
+    stroke-dashoffset: 0%;
+    fill:black;
+  }
+}
+
+@keyframes stroke-anim {
+  0% {
+    /* 100%だと最後まで表示されないので多めに設定する */
+    stroke-dashoffset: 150%;
+    fill:transparent;
+  }
+  50% {
+    fill:transparent;
+  }
+  100% {
+    stroke-dashoffset: 0%;
+    fill:orange;
+  }
+}
 
 .copy {
-text-align: center;
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+    transform: all;
+    animation:all;
 
 }
-section .text {
-    width: 740px;
-    height: 510px;
-    vertical-align: center;
-        /* vertical-align: middle; */
+.animation_text {
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+section.thinking {
+    text-align: center;
+}
+.pan {
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+}
+.pan_picture {
     display: inline-block;
-        /* position: relative; */
+}
+p img {
+    display: inline-block;
+}
+.pan_text {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    vertical-align: top;
+    text-align: left;
+    line-height: 2;
+}
+.name_text {
+    margin: 70px auto 10px;
+    /* text-align: center; */
+    font-size: 50px;
+    font-weight: bold;
+}
+.copy_content img{
+    opacity:0.2;
+}
+svg {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*.copy_content{
+     opacity: 0.5;
+}*/
+.title_text.move.inview {
+    z-index: 11111111;
+    margin: 270px 100px 0px 100px;
+    text-align: center;
+}
+section.can {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.writing{
+    display: inline-block;
+    margin:0px 40px;
+}
+.irasuto{
+    display: inline-block;
+    margin:0px 40px;
+}
+.charange{
+    display: inline-block;
+    margin:0px 40px;
+}
+.writing_text{
+     width:330px;
+     text-align: left;
+      line-height:2;
+
+}
+.writing_title {
+    font-size: 30px;
+    color: #5E5E5E;
+}
+.irasuto_text{
+     width:330px;
+     text-align: left;
+     line-height:2;
+}
+.charange_text{
+     width:330px;
+     text-align: left;
+      line-height:2;
+}
+/*.copy_content{
+     animation: guruguru 8s linear infinite;
+    -webkit-animation: guruguru 8s linear infinite;
+    -moz-animation: guruguru 8s linear infinite;
+    background-repeat: repeat;
+}
+@-webkit-keyframes guruguru {
+  0% { -webkit-transform: translate(-1000px,0px); }
+  100% { -webkit-transform: translate(1000px,0) ; }
+}*/
+
+section .text {
     top: 30px;
     left: 0px;
     vertical-align: top;
     position: relative;
-    border-radius: 208px 320px 340px 481px;
     opacity: 1.4;
     z-index: 111;
-    background: #FFFC93;
 }
 section .text_profile {
     width: 530px;
@@ -89,23 +247,12 @@ section#skill {
     text-align: center;
     margin: 100px 0px;
 }
-section .riko_picture::before {
-    background-image: url(img/大塚パン.png);
-    background-repeat: no-repeat;
-    content: "";
-    /* display: block; */
-    position: absolute;
-    width: 236px;
-    height: 350px;
-    opacity: 0.7;
-    right: 100px;
-}
+
 section .title {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 20px;
     /* margin-top: 100px; */
     color: #5F5F5F;
-    margin: 0px 0px 50px;
+    margin:0px 0px 50px;
     text-align: center;
   }
 
@@ -113,18 +260,7 @@ section .work_design1{
     margin: 60px;
     position: relative;
 }
-section .work_design1::before {
-    background-image: url(img/大塚写真.png);
-    background-repeat: no-repeat;
-    content: "";
-    position: absolute;
-        /* display: block; */
-    width: 300px;
-    height: 327px;
-        /* top: 2160px; */
-    left:-20px;
-    opacity: 0.7;
-}
+
 section .work_design2{
   margin: 60px;
 }
@@ -144,31 +280,13 @@ section .explain_text {
     margin: 0 auto;
     line-height: 3;
 }
-section .wantedly{
-  display: inline-block;
-}
-section .content {
-  position: relative;
-  top: 130px;
-  width: 490px;
-  margin: 0 auto;
-  color: #5F5F5F;
-  text-align: left;
-}
-
-section .content h1 {
-  font-size: 1.9em;
-}
-section .content p {
-  line-height: 3;
-}
-
 
 section footer{
   width:100%;
   height :200px;
   background: #fff;
 }
+
 
 section footer .footer_name{
   color: #19B6E0;
@@ -179,6 +297,19 @@ section footer .footer_name{
 section .my_application{
   display: block;
   text-align: center;
+  background:#fff;
+}
+.title_eating.run {
+    font-size: 40px;
+    font-weight: bold;
+}
+section .explain_text {
+    width: 800px;
+    margin: 0 auto;
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 0.8em;
+    text-align: left;
 }
 section.text_application {
     width: 680px;
@@ -194,19 +325,26 @@ section .application2{
     display: inline-block;
 }
 
+section .application_top{
+    display: block;
+    width: 100%;
+}
 
 section.explain {
-    margin: 150px 0px;
+    margin: 30px 0px 30px;
 }
 
 section.schedule{
-    margin: 140px 0px;
+    display: table;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    width: 100%;
 }
 
 section.trouble {
     margin: 140px 0px;
 }
-.plan p {
+/*.plan p {
     display: inline-block;
     background: #FFFEAA;
     width: 60px;
@@ -217,16 +355,13 @@ section.trouble {
     position: relative;
     left: -20px;
     font-size: 20px;
-}
+}*/
 
 .plan {
     margin: 0px auto;
     text-align: left;
-    /* display: block; */
-    /* max-width: 100%; */
     display: block;
     width: 300px;
-    /* transform: translate(30%,-10%); */
     position: relative;
     height: 600px;
     font-size: 20px;
@@ -234,20 +369,126 @@ section.trouble {
 .plan6 {
     margin: 30px 0px;
 }
-
+.circle {
+    display: inline-block;
+    /* text-align: right; */
+    background: #FFEB3B;
+    border-radius: 34px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -85px;
+    top: 40px;
+}
+.circle2 {
+    display: inline-block;
+    background: #FFEB3B;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -85px;
+    /* top: 0px; */
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.circle3 {
+    display: inline-block;
+    background: #FFEB3B;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -85px;
+    /* top: 0px; */
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.circle4 {
+    display: inline-block;
+    background: #FFEB3B;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -85px;
+    /* top: 0px; */
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.circle5 {
+    display: inline-block;
+    background: #FFEB3B;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -85px;
+    /* top: 0px; */
+    margin-top: 30px;
+    border-radius: 30px;
+}
 .plan:before {
     content: "";
     width: 10px;
     height: 470px;
-    background:#FFFEAA;
+    background: #e2e2d4;
     position: absolute;
     z-index: -111;
-    top: 50px;
-    left: 5px;
+    top: 20px;
+    left: -65px;
+}
+.plan.move.inview {
+    line-height: 5;
 }
 .motivation_content {
     background: #FFFEAA;
     width: 600px;
+    margin: 0 auto;
+}
+.riko_picture.move.inview {
+    display: inline-block;
+    /* width: 400px; */
+    margin: 50px 0px;
+    
+}
+.picture text move inview{
+    display: inline-block;
+}
+section .biography dt{
+    float: left;
+    display: inline;
+    zoom: 1;
+    margin: 7px 10px 3px;
+    padding: 3px 5px;
+    width: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+section .biography dd{
+    float: left;
+    display: inline;
+    zoom: 1;
+    width: 155px;
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+section .biography{
+    float:left;
+    display: inline;
+    zoom: 1;
+    width:238px;
+}
+.riko_picture move p{
+    width: 20px;
+    height: 20px;
+}
+
+.innner{
+    width: 700px;
     margin: 0 auto;
 }
 section.target {
@@ -295,6 +536,10 @@ section .motivation_content_picture {
     position: relative;
     top: -30px;
 }
+section .container{
+    display: block;
+}
+
 section .motivation_pear {
     display: block;
     /* padding: 70px; */

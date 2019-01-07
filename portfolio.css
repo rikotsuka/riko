@@ -6,7 +6,9 @@ html,body{margin:0px;}
     transform:translateY(25%);
     animation: all;
 }
-
+.pan_text.move.inview {
+    margin: 0px 30px;
+}
 .move.inview{
     opacity: 1;
     transition: 1s ease;

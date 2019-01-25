@@ -643,6 +643,14 @@ section .ec_site_picture {
     /* width: 1000px; */
     height: 1000px;
 }
+.obog_picture.move.inview{
+    text-align: center;
+    background-image: url(img/OBOG.jpg);
+    background: cover;
+    background-size: cover;
+    /* width: 1000px; */
+    height: 1000px;
+}
 section .skill_set {
     text-align: center;
 }

@@ -52,13 +52,7 @@ section .header{
   display: table;
 }
 
-.ec_site_picture.move.inview {
-    background-image: url(img/ECサイトのやつ.jpg);
-    background: cover;
-    background-size: cover;
-    /* width: 1000px; */
-    height: 1000px;
-}
+
 section .header_title {
     display: inline-table;
     width: 100%;
@@ -643,8 +637,12 @@ section .target_text {
 
 section .ec_site_picture {
     text-align: center;
+    background-image: url(img/ECサイトのやつ.jpg);
+    background: cover;
+    background-size: cover;
+    /* width: 1000px; */
+    height: 1000px;
 }
-
 section .skill_set {
     text-align: center;
 }
